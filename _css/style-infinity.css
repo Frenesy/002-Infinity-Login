@@ -141,52 +141,65 @@ section.logo-text h1 {
 }
 
 section.social-media div.facebook:hover {
-    background-color: #ddd;
+    background-color: rgb(211, 209, 209);
+}
+section.social-media div.twitter:hover {
+    background-color: rgb(211, 209, 209);
+}
+section.social-media div.google:hover {
+    background-color: rgb(211, 209, 209);
+}
+section.social-media div.linkedin:hover {
+    background-color: rgb(211, 209, 209);
 }
 section.social-media {
     display: flex;
     justify-content: center;
     width: 300px;
     height: 55px;
+    margin-top: 15px;
 }
 section.social-media div.facebook {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
     border-color: #b1b1b1;
-    background: url("../_img/facebook.png") no-repeat scroll 9px 9px;
-    background-size: 32px;
+    background: url("../_img/facebook.png") no-repeat scroll 5px 5px;
+    background-size: 20px;
 }
 section.social-media div.twitter {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
     border-color: #b1b1b1;
-    background: url("../_img/twitter.png") no-repeat scroll 9px 9px;
+    background: url("../_img/twitter.png") no-repeat scroll 6px 5px;
+    background-size: 20px;
     margin-left: 10px;
 }
 section.social-media div.google {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
     border-color: #b1b1b1;
-    background: url("../_img/google-plus.png") no-repeat scroll 9px 10px;
+    background: url("../_img/google-plus.png") no-repeat scroll 6px 5px;
+    background-size: 20px;
     margin-left: 10px;
 }
 section.social-media div.linkedin {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
     border-color: #b1b1b1;
-    background: url("../_img/linkedin.png") no-repeat scroll 9px 9px;
+    background: url("../_img/linkedin.png") no-repeat scroll 8px 6px;
+    background-size: 15px;
     margin-left: 10px;
 }
 
